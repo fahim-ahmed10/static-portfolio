@@ -1,0 +1,309 @@
+@media screen and (max-width:1590px) {
+    .secondSection .about .leftSec {
+        flex-basis: 40%;      
+}
+    .secondSection .about .rightSec .rightSecItem .leftItem{
+        flex-basis: 60%;
+}
+}
+@media screen and (max-width:1440px){
+    .secondSection .about .leftSec {
+        flex-basis: 50%;      
+}
+    .secondSection .about .rightSec .rightSecItem .leftItem{
+        flex-basis: 50%;
+}
+    #fourthSection .fourth .content{    
+        margin: 30px;
+}
+    #fourthSection .fourth .box{   
+        width: 300px;   
+        padding: 0 20px;     
+}
+}
+@media screen and (max-width:1360px){
+    .secondSection .about{
+        flex-wrap: wrap;      
+           
+}
+    .secondSection .about .rightSec .rightSecItem .leftItem{
+        flex-basis: 65%;
+}
+    .secondSection .about .rightSec h4{
+        display: none;
+}
+}
+@media screen and (max-width:1232px){
+    nav{
+        padding: 10px 40px 10px 5px;
+    }
+    nav ul li.logo{
+        display: none;
+    }
+    nav ul div.items{
+        flex: 4;
+    }
+#fourthSection .fourth .box{   
+    width: 270px;     
+    padding: 0 20px;
+    
+}
+#fourthSection .fourth .box div{
+    font-size: 3em;
+    font-weight: 800;
+}
+#fourthSection .fourth .box h3{
+    font-size: 26px;
+}
+#fourthSection .fourth .box p{
+    font-size: 16px; 
+}
+
+
+}
+@media screen and (max-width:1130px){   
+    #fourthSection{
+    background: linear-gradient(#d3b2f1, #d3ddff 30%,#fff 100%, #fff 90%,#d3b2f1 80%, #fff 100%);   
+}
+    #fourthSection .fourth .box{   
+    width: 100%;     
+    padding: 0 30px;
+    margin-bottom: 80px;
+    
+}
+#fourthSection .fourth .box div{
+    font-size: 3em;
+    font-weight: 800;
+}
+#fourthSection .fourth .box h3{
+    font-size: 28px;
+}
+#fourthSection .fourth .box p{
+    font-size: 18px; 
+}
+}
+@media screen and (max-width:1020px){
+    .mainSite .firstSection{    
+    height: 90vh;         
+}
+    .secondSection .about{
+        flex-wrap: wrap;      
+           
+}   
+    .secondSection .about .rightSec .rightSecItem{
+        flex-direction: column;  
+     
+} 
+   .secondSection .about .rightSec .rightSecItem .leftItem{
+        flex-basis: 65%;
+}
+    #thirdSection .para{
+        float: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        
+}
+    #thirdSection .bars{
+        float: left;
+        width: 100%;
+        margin: 20px;
+        
+}
+}
+
+@media screen and (max-width:900px){
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }   
+}
+@media screen and (max-width:880px){
+    nav ul li.btn{        
+        display: block;         
+    }
+    nav{              
+        z-index: 11;
+        padding: 9px 40px 10px 0;
+    }
+    nav ul div.items{
+        position: absolute;
+        z-index: -1;
+        left: -100%;
+        top: 77px;
+        right: 0;
+        width: 100%;
+        background: #202631;
+        display: inline-block;
+        transition: left .4s;        
+    }
+    nav ul div.items.show{
+        left: 0;        
+    }
+    nav ul div.items li{
+        text-align: center;
+        line-height: 30px;
+        margin: 30px 0;
+    }
+    nav ul div.items li a{
+        font-size: 19px;
+    }
+    nav ul div .active{  
+        border: none;   
+        background: none;   
+        width: 100%; 
+
+    }     
+}
+@media screen and (max-width:730px){
+    #fifthSection .fifth .experience-area .years-area{        
+        width: 50%;        
+        padding-left: 1%;       
+    }
+    #fifthSection .fifth .experience-area .bg-panel{
+        margin-left: 40%;
+        width: 80%;        
+    }
+    #fifthSection .fifth .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+}
+@media screen and (max-width:645px){
+    .mainSite .firstSection{   
+    height: 80vh;
+}
+    .mainSite .firstSection .author{  
+        top: 50%;        
+}
+    .mainSite .firstSection .author h1{
+        font-size: 35px;
+    }
+    .mainSite .firstSection .author h3{
+        font-size: 25px;
+    }  
+    #fifthSection .fifth .experience-area .bg-panel{
+        background: none;     
+    }
+}
+@media screen and (max-width:520px){   
+    .mainSite .firstSection .author h1{
+        font-size: 30px;
+    }
+    .mainSite .firstSection .author h3{
+        font-size: 20px;
+    }
+    .secondSection{    
+        margin: 40px; 
+        margin-bottom: 100px; 
+} 
+    #thirdSection{    
+        margin: 40px; 
+        margin-bottom: 100px;            
+}
+    #fourthSection .fourth{   
+        margin: 40px;
+        margin-bottom: 100px;  
+}
+    #fourthSection .fourth .box{         
+        padding: 0 10px;
+        margin-bottom: 60px;
+    
+}
+    #fourthSection .fourth .box div{
+        font-size: 3em;
+        font-weight: 800;
+}
+    #fourthSection .fourth .box h3{
+        font-size: 21px;
+}
+    #fourthSection .fourth .box p{
+        font-size: 16px; 
+}
+    #fifthSection .fifth{
+        margin: 40px;
+        margin-bottom: 50px;
+    }
+    #sixSection .six{       
+        margin: 40px;  
+        margin-bottom: 100px;         
+    }
+    #SevenSection .seven{       
+        margin: 40px;
+        margin-bottom: 100px;
+        
+    }
+
+}
+@media screen and (max-width:405px){
+    nav ul .search-icon{     
+        width: 150px;       
+    }
+    nav ul .search-icon input{   
+        width: 120px;    
+        font-size: 12px;
+    }
+    nav ul .search-icon .icon{  
+    width: 30px;
+    line-height: 40px;   
+    }
+    nav ul div.items li{
+        
+        line-height: 30px;
+        margin: 30px 0;        
+    }
+    .mainSite .firstSection .author h1{
+    
+    font-size: 25px;
+}
+    .mainSite .firstSection .author h3{    
+        font-size: 18px;   
+}
+    .secondSection{    
+        margin: 20px;
+        margin-bottom: 50px;  
+} 
+    .secondSection .heading h5{     
+        font-size: 20px; 
+}
+    .secondSection .heading h1{    
+        font-size: 30px;  
+}
+    #thirdSection{    
+        margin: 20px;
+        margin-bottom: 50px;          
+}
+    #fourthSection .fourth{   
+        margin: 20px; 
+        margin-bottom: 50px;   
+}
+    #fifthSection .fifth{
+        margin: 20px; 
+        margin-bottom: 50px;     
+}
+    #sixSection .six{       
+        margin: 20px;
+        margin-bottom: 50px;             
+}
+    #SevenSection .seven{       
+        margin: 20px;
+        margin-bottom: 50px;  
+    
+}
+}
+@media screen and (max-width:313px){  
+    nav ul div.items{
+        top: 105px;
+    } 
+    nav ul div.items li{
+        margin-top: 60px;
+    }
+   
+}
